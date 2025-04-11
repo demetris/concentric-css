@@ -1,9 +1,8 @@
-/* This ordering of CSS elements is for the traditional setting
-   "box-sizing: content-box", which applies the "width:" and "height:"
-   only to the innermost content of the box.  If you are using one of
-   the other box model settings - Paul Irish recommends "box-model:
-   border-box", for example - then simply move the "width:" and
-   "height:" up above the "border:" property in the list below. */
+/* This ordering of CSS elements is optimized for the modern standard
+   "box-sizing: border-box", which is now widely adopted as best practice
+   and applies "width:" and "height:" to the entire box including border 
+   and padding. This approach follows the principle of placing width and height
+   properties after margin but before border, as they now define the total box size. */
 
 #Concentric-CSS-Overview {
   display: ;    /* Directions about where and how the box is placed */
@@ -17,14 +16,16 @@
   z-index: ;
 
   margin: ;     /* Layers of the box model, from outside to inside */
+  
+  width: ;      /* With border-box, width/height define the total box size */
+  height: ;
+  
   outline: ;
   border: ;
   background: ; /* (padding and content BOTH get the background color) */
   padding: ;
-
-  width: ;      /* Content dimensions and scrollbars */
-  height: ;
-  overflow: ;
+  
+  overflow: ;   /* How content that exceeds the box dimensions is handled */
 
   color: ;      /* Textual content */
   text: ;
@@ -139,6 +140,16 @@
   margin-bottom: ;
   margin-left: ;
 
+  /* width */
+  width: ;
+  min-width: ;
+  max-width: ;
+
+  /* height */
+  height: ;
+  min-height: ;
+  max-height: ;
+
   /* outline */
   outline: ;
   outline-offset: ;
@@ -210,16 +221,6 @@
   padding-right: ;
   padding-bottom: ;
   padding-left: ;
-
-  /* width */
-  width: ;
-  min-width: ;
-  max-width: ;
-
-  /* height */
-  height: ;
-  min-height: ;
-  max-height: ;
 
   /* overflow */
   overflow: ;
