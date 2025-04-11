@@ -1,8 +1,7 @@
-Concentric-CSS
-==============
+# Concentric CSS
 
-A CSS property suggested ordering: starts outside the box model, moves inward.
+A fork of [Brandon Rhodes' Concentric CSS](https://github.com/brandon-rhodes/Concentric-CSS) - a CSS property ordering system that starts from outside the box model and moves inward.
 
-The `style.css` file in this repository lists the Concentric order for
-the traditional CSS2 properties, while `style3.css` also includes the
-many properties added by the newer CSS3 standard.
+## Additions
+
+- 2025-04-11. Added `container-type` to new group, `containers`

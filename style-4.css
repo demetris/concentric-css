@@ -81,6 +81,11 @@
   grid-row-gap: ;
   grid-column-gap: ;
 
+  /* container */
+  container: ;
+  container-type: ;
+  container-name: ;
+
   /* align-content */
   align-content: ;
   align-items: ;
