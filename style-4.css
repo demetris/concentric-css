@@ -10,6 +10,7 @@
   position: ;
   float: ;
   clear: ;
+  container: ;  /* How the element contains its children */
 
   visibility: ; /* Next: can the box be seen? */
   opacity: ;
