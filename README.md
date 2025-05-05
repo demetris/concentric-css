@@ -13,3 +13,9 @@ Additions
     -   Moved width/height between margin and outline, to reflect modern usage of `box-sizing: border-box`
 -   2025-04-11.
     -   Added `container-type` to new group, `containers`
+
+
+Related
+----------------------------------------
+
+-   [Recess* Property Order](https://github.com/stormwarning/stylelint-config-recess-order/)
