@@ -9,6 +9,8 @@ A fork of [Brandon Rhodes’ Concentric CSS](https://github.com/brandon-rhodes/C
 Additions
 ----------------------------------------
 
+-   2025-05-05.
+    -   Added pointer-events and scroll-snap
 -   2025-04-11.
     -   Moved width/height between margin and outline, to reflect modern usage of `box-sizing: border-box`
 -   2025-04-11.
