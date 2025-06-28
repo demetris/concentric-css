@@ -8,29 +8,32 @@
 */
 
 [concentric-css-overview] {
-  display: ;    /* Directions about where and how the box is placed */
+  pointer-events: ;     /* Can we interact with this box? */ 
+
+  display: ;            /* Directions about where and how the box is placed */
   position: ;
   float: ;
   clear: ;
-  container: ;  /* How the element contains its children */
+  container: ;          /* How the element contains its children */
 
-  visibility: ; /* Next: can the box be seen? */
+  visibility: ;         /* Next: can the box be seen? */
   opacity: ;
   z-index: ;
 
-  margin: ;     /* Layers of the box model, from outside to inside */
+  margin: ;             /* Layers of the box model, from outside to inside */
   
-  width: ;      /* With border-box, width/height define the total box size */
+  width: ;              /* With border-box, width/height define the total box size */
   height: ;
   
   outline: ;
   border: ;
-  background: ; /* (padding and content BOTH get the background color) */
+  background: ;         /* (padding and content BOTH get the background color) */
   padding: ;
   
-  overflow: ;   /* How content that exceeds the box dimensions is handled */
+  overflow: ;           /* How content that exceeds the box dimensions is handled */
+  scroll-snap-align: ;  /* How the element snaps to its container during scrolling */
 
-  color: ;      /* Textual content */
+  color: ;              /* Textual content */
   text: ;
   font: ;
 }
@@ -40,6 +43,9 @@
     Preserved original comment by original author, Brandon Rhodes: 
     All CSS properties, in roughly the order I use when being careful
   */
+
+  /* interaction */
+  pointer-events: ;
 
   /* all */
   all: ;
@@ -234,6 +240,10 @@
   overflow-y: ;
   resize: ;
 
+  /* scroll-snap */
+  scroll-snap-align: ;
+  scroll-snap-stop: ;
+
   /* list-style */
   list-style: ;
   list-style-type: ;
@@ -311,5 +321,4 @@
   page-break-before: ;  /* [NOTE]: to be changed for <tt>break-[before|after]</tt>; */
   page-break-after: ;
   page-break-inside: ;
-
 }
