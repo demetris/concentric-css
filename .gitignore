@@ -2,3 +2,8 @@
 # Local files
 #
 .local/
+
+#
+# Claude Code
+#
+CLAUDE.md
