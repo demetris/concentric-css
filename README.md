@@ -9,6 +9,8 @@ A fork of [Brandon Rhodes’ Concentric CSS](https://github.com/brandon-rhodes/C
 Additions
 ----------------------------------------
 
+-   2025-07-19.
+    -   Added appearance
 -   2025-05-05.
     -   Added pointer-events and scroll-snap
 -   2025-04-11.

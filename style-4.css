@@ -20,6 +20,8 @@
   opacity: ;
   z-index: ;
 
+  appearance: ;         /* How does it render when visible? */
+
   margin: ;             /* Layers of the box model, from outside to inside */
   
   width: ;              /* With border-box, width/height define the total box size */
@@ -144,6 +146,9 @@
   visibility: ;
   opacity: ;
   z-index: ;
+
+  /* appearance */
+  appearance: ;
 
   /* margin */
   margin: ;
